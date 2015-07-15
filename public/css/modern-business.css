@@ -13,6 +13,12 @@ body {
 
 body {
     padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    background: url('../images/blue-fishy.jpg') repeat center center;
+}
+
+h1, h2 {
+    color: #337ab7;
+    text-shadow: 1px 2px 5px #FFF;
 }
 
 .img-portfolio {
@@ -90,4 +96,20 @@ footer {
     header.carousel .carousel {
         height: 70%;
     }
+}
+
+.navbar-nav li a {
+    border-radius: 3px;
+}
+
+.navbar-fixed-top {
+    background: #FFFFFF;
+}
+
+span.icon-bar {
+    background: #337ab7;
+}
+
+.panel-body p {
+    font-size: 18px;
 }
